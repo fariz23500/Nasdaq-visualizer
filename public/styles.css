@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.titlebar{
+  background-color:#FFD523;
+  font-size:90px;
+  padding: 20px 0 20px 0;
+  width:100%;
+  height:80px;
+
+}
+.symbol{
+  height:150px;
+}
+.symbol-input{
+ 
+  position: relative;
+  top:50%;
+  
+  left:35%;
+ 
+  width: 20%;
+  height:20px;
+}
+.datepicker{
+  position:relative;
+  left:35%;
+}
+.enter-btn{
+  position:relative;
+  top:10px;
+  left:35%;
+  margin-bottom: 200px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.description{
+  margin-top:40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.foot{
+  height:40px;
+}
